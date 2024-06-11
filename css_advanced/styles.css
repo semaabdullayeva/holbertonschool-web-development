@@ -1,0 +1,310 @@
+@font-face {
+    font-family: Source Sans Pro Bold;
+    src: url(./assets/fonts/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(./assets/fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Source Sans Pro IT';
+    src: url(./assets/fonts/SourceSansPro-LightIt.otf);
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Light';
+    src: url(./assets/fonts/SourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Extra Light';
+    src: url(./assets/fonts/SourceSansPro-ExtraLight.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Source Sans Pro Extra Light;
+}
+
+header {
+    padding-top: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.container {
+    margin: auto 40px;
+}
+
+.header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: auto 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url('./img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 40px;
+}
+
+.main-title {
+    margin-top: 120px;
+    color: #fff;
+    text-align: center;
+    font-family: Source Sans Pro Bold;
+}
+
+.purple-text {
+    font-family: Source Sans Pro Bold;
+    color: #C271FF;
+}
+
+.main-title h1 {
+    font-size: 120px;
+    font-family: Source Sans Pro Bold;
+
+}
+.main-title p span{
+    margin: 15px;
+    font-size: 16px;
+    font-family: Source Sans Pro Bold;
+
+}
+
+.register {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #C271FF;
+    border: none;
+    color: #fff;
+    font-family: Source Sans Pro;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.main-content {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-family: Source Sans Pro Extra Light;
+    color: #fff;
+}
+
+.main-img {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-item {
+    width: 200px;
+    color: #fff;
+}
+
+.main-item h3 {
+    font-size: 18px;
+}
+
+.main-item p {
+    line-height: 22px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro IT';
+    padding-top: 6px;
+}
+
+.quote {
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+}
+
+.quote-text {
+    height: 160px;
+    padding: 0 50px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quote-text div {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+blockquote {
+    line-height: 33px;
+    font-size: 22px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+.videos{
+    padding: 100px 0;
+}
+.videos-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.membership {
+    padding: 80px;
+    text-align: center;
+    color: #fff;
+    background-color: #071629;
+}
+
+.membership h1, .videos h1, .main-content h2 {
+    font-size: 32px;
+    margin-bottom: 80px;
+}
+
+.membership-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.membership-content div {
+    text-align: center;
+    padding: 50px;
+}
+
+.membership-content div p {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.membership-content div h2 {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.videos h1 {
+    text-align: center;
+}
+
+.videos-item {
+    margin: 20px;
+}
+
+.videos-item h2 {
+    font-size: 16px;
+    font-family: Source Sans Pro Bold;
+}
+
+.videos-item p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Source Sans Pro;
+    color: #0000007a;
+}
+
+.videos-item div {
+    display: flex;
+    color: #C271FF;
+    margin-top: 10px;
+}
+
+.videos-item div h3 {
+    font-size: 14px;
+    line-height: 27px;
+    font-family: Source Sans Pro;
+    margin-left: 7px;
+}
+
+.stars {
+    justify-content: space-between;
+}
+
+.stars img {
+    width: 14.27px;
+    height: 14px;
+    margin: 2px;
+}
+
+.faq {
+    padding: 100px 0;
+}
+
+.faq h1 {
+    font-family: Source Sans Pro Extra Light;
+    font-size: 60px;
+    text-align: center;
+}
+
+.faq-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.faq-item {
+    max-width: 350px;
+    padding: 50px;
+}
+
+.faq-item h2 {
+    font-size: 16px;
+    font-family: Source Sans Pro Bold;
+}
+
+.faq-item p {
+    color: #07162974;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Source Sans Pro;
+    padding-top: 30px;
+    word-spacing: 3px;
+}
+
+footer {
+    text-align: center;
+    background-color: #071629;
+    color: #fff;
+}
+
+footer p {
+    color: #ffffff8c;
+    padding-bottom: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media i {
+    color: #fff;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+.footer {
+    padding: 90px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
